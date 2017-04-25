@@ -1,0 +1,45 @@
+<section class="container-fluid">
+  <h1 class='text-primary'>Random Quotes!</h1>
+  <p> This site will display random quotes using the <a href="http://forismatic.com/" target="_blank">Forismatic</a> API. I hope you enjoy them as I learn to work with API and front end. If you want, you can tweet the quotes, it will take you to a new page
+    where you might need to edit the post if the quote is too long.</p>
+  <div class="well">
+    <p class="quote-text"></p>
+    <p class="author-text"></p>
+  </div>
+  <button type="button" class="btn btn-primary" id="quote">New Quote</button>
+  <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
+    <button type="button" class="btn btn-primary">Tweet it!</button>
+  </a>
+</section>
+
+<footer>
+  <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
+</footer>
+p, .container-fluid {
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #e4f1fe;
+  font-family: 'Comic Sans MS';
+}
+body {
+  position: relative;
+  background-color: #0d493b;
+}
+.well {
+  margin-right: 3%;
+  margin-left: 3%;
+  background-color: #0d493b;
+}
+footer {
+  min-height: 8vh;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background-color: black;
+}
+section {
+  min-height: 91.8vh;
+  font-size: 18px;
+  font-weight: 300;
+}
